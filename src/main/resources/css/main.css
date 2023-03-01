@@ -1,0 +1,46 @@
+@font-face {
+    font-family: "jejudoldam"; /* 제주돌담 폰트 */
+    src: url("../assets/EF_jejudoldam.ttf");
+}
+
+@font-face {
+    font-family: "NanumSquareNeo"; /* 나눔스퀘어 폰트 */
+    src: url("../assets/NanumSquareNeo-bRg.ttf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    width: 100vw;
+    height: 100vh;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 30px;
+    background-color: #eeeeee;
+}
+
+header ul li {
+    list-style: none;
+    font-size: 24px;
+    display: inline;
+}
+
+#headerLeft li a, #headerRight li a {
+    color: black;
+    text-decoration: none;
+}
+
+#headerLeft li a {
+    font-family: jejudoldam;
+}
+
+#headerRight li a {
+    font-family: NanumSquareNeo;
+    margin-left: 20px;
+}
