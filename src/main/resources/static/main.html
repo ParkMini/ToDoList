@@ -6,14 +6,30 @@
     <link rel="stylesheet" href="../css/main.css">
 </head>
 <body>
-    <header>
-        <ul id="headerLeft">
-            <li><a href="#">ToDoList!</a></li>
-        </ul>
-        <ul id="headerRight">
-            <li><a href="#">오늘의 할 일</a></li>
-            <li><a href="#">내 프로필</a></li>
-        </ul>
-    </header>
+<header>
+    <ul id="headerLeft">
+        <li><a href="#">ToDoList!</a></li>
+    </ul>
+    <ul id="headerRight">
+        <li><a href="#">오늘의 할 일</a></li>
+        <li><a href="#">내 프로필</a></li>
+    </ul>
+</header>
+<form action="add" method="post" id="addForm">
+    <h1>ToDoList - 오늘의 할 일</h1>
+    <input type="text" name="addTitle" id="addTitle">
+    <input type="submit" value="추가"><br>
+    <textarea name="addContent" id="addContent" cols="30" rows="10"></textarea>
+</form>
+<div id="list">
+    <div id="tdl1" class="listDiv">
+        <p class="listTitle">TodoList 제목 1</p>
+        <pre class="listContent">
+1. TodoList
+2. TodoList
+3. TodoList
+</pre>
+    </div>
+</div>
 </body>
 </html>

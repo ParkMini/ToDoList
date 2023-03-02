@@ -44,3 +44,21 @@ header ul li {
     font-family: NanumSquareNeo;
     margin-left: 20px;
 }
+
+#addForm {
+    margin-top: 20px;
+    font-family: NanumSquareNeo;
+    text-align: center;
+}
+
+#list {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.listDiv {
+    margin: 0 auto;
+    width: 80%;
+    border: solid 1px black;
+    border-radius: 10px;
+}
