@@ -17,9 +17,10 @@
 </header>
 <form action="add" method="post" id="addForm">
     <h1>ToDoList - 오늘의 할 일</h1>
-    <input type="text" name="addTitle" id="addTitle">
-    <input type="submit" value="추가"><br>
-    <textarea name="addContent" id="addContent" cols="30" rows="10"></textarea>
+    <input type="text" name="addTitle" id="addTitle" placeholder="제목" value="ToDoList Frontend 완성하기">
+    <button id="addButton">추가</button>
+    <br>
+    <textarea name="addContent" id="addContent" rows="10"></textarea>
 </form>
 <div id="list">
     <div id="tdl1" class="listDiv">
@@ -30,6 +31,17 @@
 3. TodoList
 </pre>
     </div>
+    <div id="tdl2" class="listDiv">
+        <p class="listTitle">TodoList 제목 2</p>
+        <pre class="listContent">
+1. TodoList
+2. TodoList
+3. TodoList
+</pre>
+    </div>
 </div>
 </body>
+<!--<script>-->
+<!--    setInterval(() => location.reload(1), 100);-->
+<!--</script>-->
 </html>
